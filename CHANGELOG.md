@@ -1,8 +1,9 @@
-### Changelog
+# Change Log
 
-#### 1.0.0
+## [2.0.0] 2022-07-31
+### Improvements
 
-- Intial release
+-  Import v2.0.0 (for Gulp Migration)
 
 #### 1.1.0
 
