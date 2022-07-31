@@ -1,7 +1,21 @@
 # Adminator Bootstrap 5 Admin Template
 **Adminator** is a responsive Bootstrap 5 Admin Template. It provides you with a collection of ready to use code snippets and utilities, custom pages, a collection of applications and some useful widgets. Preview of this awesome admin template available here: https://colorlib.com/polygon/adminator/index.html
 
-# Preview
+> To be migarted to GULP - paid task via [Upwork](https://www.upwork.com/jobs/~0121924eb420aa1f52). For more information access the task page on UpW or chat with [AppSeed Support](https://appseed.us/support/) team.
+
+- Migration of the project from Webpack to a classic Gulp builder
+- HTML pages cleanUp to not include CSS code in the header
+- Classic Gulp tooling that includes:
+  - SCSS to CSS compilation
+  - serve option with hot reload
+- Assets used by the pages should de be isolated in the assets folder with subfolders:
+  - js
+  - fonts
+  - images
+  - CSS
+  - SCSS
+
+<br />  
 
 ### Screenshot
 
