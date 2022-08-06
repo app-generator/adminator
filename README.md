@@ -1,6 +1,6 @@
-# Adminator Bootstrap 5
+# [Adminator Bootstrap 5](https://adminator.appseed-srv1.com/)
 
-**Adminator** is a responsive Bootstrap 5 Admin Template. It provides you with a collection of ready to use code snippets and utilities, custom pages, a collection of applications and some useful widgets - **Initially coded by [Colorlib](https://github.com/puikinsh/Adminator-admin-dashboard)**.
+**[Adminator](https://adminator.appseed-srv1.com/)** is a responsive Bootstrap 5 Admin Template. It provides you with a collection of ready to use code snippets and utilities, custom pages, a collection of applications and some useful widgets - **Initially coded by [Colorlib](https://github.com/puikinsh/Adminator-admin-dashboard)**.
 
 <br />
 
@@ -90,4 +90,4 @@ Here is a brief explanation of the template folder structure and some of its mai
 <br />
 
 ---
-Adminator Bootstrap 5 - Actively supported and verisoned by [AppSeed](https://appseed.us/). 
+[Adminator Bootstrap 5](https://adminator.appseed-srv1.com/) - Actively supported and verisoned by [AppSeed](https://appseed.us/). 
