@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title></title>
+    @@include('./_head.html', {
+        "path": ".",
+        "title": "Buttons"
+    })
   </head>
   <body class="app">
     <!-- @TOC -->
@@ -49,7 +50,7 @@
                   <div class="peers ai-c fxw-nw">
                     <div class="peer">
                       <div class="logo">
-                        <img src="assets/static/images/logo.png" alt="">
+                        <img src="assets/images/logo.png" alt="">
                       </div>
                     </div>
                     <div class="peer peer-greed">
@@ -473,5 +474,8 @@
         </footer>
       </div>
     </div>
+     @@include('./_scripts.html', {
+        "path": "."
+    })
   </body>
 </html>

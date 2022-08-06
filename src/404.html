@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>404</title>
+    @@include('./_head.html', {
+        "path": ".",
+        "title": "400"
+    })
   </head>
   <body class="app">
     <div class='pos-a t-0 l-0 bgc-white w-100 h-100 d-f fxd-r fxw-w ai-c jc-c pos-r p-30'>
       <div class='mR-60'>
-        <img alt='#' src='assets/static/images/404.png' />
+        <img alt='#' src='assets/images/404.png' />
       </div>
 
       <div class='d-f jc-c fxd-c'>
@@ -20,5 +21,8 @@
         </div>
       </div>
     </div>
+     @@include('./_scripts.html', {
+        "path": "."
+    })
   </body>
 </html>
