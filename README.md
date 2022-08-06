@@ -16,7 +16,7 @@ $ npm install
 $ gulp 
 ```
 
-At this point, the project should run in the browser. 
+At this point, the project should run in the browset at address `http://localhost:3000`
 
 <br />  
 
@@ -79,21 +79,6 @@ Here is a brief explanation of the template folder structure and some of its mai
 └── CHANGELOG.md                # Versioning.
 └── package.json                # Package metadata.
 └── README.md                   # Manual file.
-```
-
-## Deployment
-In deployment process, you have two commands:
-
-1. Build command
-Used to generate the final result of compiling src files into build folder. This can be achieved by running the following command:
-```
-> npm run build
-```
-
-2. Preview command
-Used to create a local dev server in order to preview the final output of build process. This can be achieved by running the following command:
-```
-> npm run preview
 ```
 
 <br />
