@@ -1,5 +1,10 @@
 # Change Log
 
+## [2.0.1] 2022-07-31
+### Improvements
+
+- Gulp Migration Validated
+
 ## [2.0.0] 2022-07-31
 ### Improvements
 
