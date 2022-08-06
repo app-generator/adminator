@@ -1,12 +1,14 @@
 # Adminator Dashboard Template
 
-**Adminator** is a responsive Bootstrap 5 Admin Template. It provides you with a collection of ready to use code snippets and utilities, custom pages, a collection of applications and some useful widgets - Initially coded by [Colorlib](https://github.com/puikinsh/Adminator-admin-dashboard).
+**Adminator** is a responsive Bootstrap 5 Admin Template. It provides you with a collection of ready to use code snippets and utilities, custom pages, a collection of applications and some useful widgets - **Initially coded by [Colorlib](https://github.com/puikinsh/Adminator-admin-dashboard)**.
+
+<br />
 
 > Note: This project is a Gulp migration (from `Webpack`) for a better use in frameworks like Flask, Django, FastAPI and accelerated development with new features. 
 
 <br />
 
-> Quick Start - Tested with **Node v16.15.0**, **Gulp CLI 2.3.0, Local version 4.0.2**
+> Quick Start - Tested with **Node v16** and **Gulp 4.0.2**
 
 ```bash
 $ git clone https://github.com/app-generator/adminator.git
