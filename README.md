@@ -100,7 +100,7 @@ Used to create a local dev server in order to preview the final output of build 
 
 ## License
 
-@MIT License
+[@MIT](./LICENSE.md)
 
 <br />
 
