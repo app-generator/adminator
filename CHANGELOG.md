@@ -1,5 +1,11 @@
 # Change Log
 
+## [2.0.2] 2022-07-31
+### Improvements
+
+- Isolate Components
+  - footer, navigation, sidebar
+
 ## [2.0.1] 2022-07-31
 ### Improvements
 
