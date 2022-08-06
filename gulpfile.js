@@ -66,7 +66,7 @@ gulp.task('html', function () {
     return gulp.src([paths.src.base + '*.html'])
     .pipe(fileinclude({
             prefix: '@@',
-              basepath: './src/assets/partials/',
+              basepath: './src/partials/',
             context: {
                 environment: 'development'
             }
@@ -111,7 +111,7 @@ gulp.task('serve', gulp.series('scss', 'html', 'fonts', 'images', 'build', funct
     });
 
   gulp.watch([paths.src.scss + '/spec/**/*.*', paths.src.scss + '/vendor/*.*' , paths.src.scss + '/*.scss'], gulp.series('scss'));
-    gulp.watch([ paths.src.base + '*.html', paths.src.base + 'assets/partials'], gulp.series('html'));
+    gulp.watch([ paths.src.base + '*.html', paths.src.base + 'partials/*.html'], gulp.series('html'));
     gulp.watch([paths.src.fonts], gulp.series('fonts'));
     gulp.watch([paths.src.images], gulp.series('images'));
     gulp.watch([paths.src.base + 'assets/js/**/*.*'], gulp.series('build'));
