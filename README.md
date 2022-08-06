@@ -1,21 +1,20 @@
-# Adminator Bootstrap 5 Admin Template
-**Adminator** is a responsive Bootstrap 5 Admin Template. It provides you with a collection of ready to use code snippets and utilities, custom pages, a collection of applications and some useful widgets. Preview of this awesome admin template available here: https://colorlib.com/polygon/adminator/index.html
+# Adminator Dashboard Template
+
+**Adminator** is a responsive Bootstrap 5 Admin Template. It provides you with a collection of ready to use code snippets and utilities, custom pages, a collection of applications and some useful widgets - Initially coded by [Colorlib](https://github.com/puikinsh/Adminator-admin-dashboard).
+
+> Note: This project is a Gulp migration (from `Webpack`) for a better use in frameworks like Flask, Django, FastAPI and accelerated development with new features. 
 
 <br />
 
-> **To be migarted to GULP** - paid task via [Upwork](https://www.upwork.com/jobs/~0121924eb420aa1f52). For more information access the task page on UpW or chat with [AppSeed Support](https://appseed.us/support/) team.
+> Quick Start - Tested with **Node v16.15.0**, **Gulp CLI 2.3.0, Local version 4.0.2**
 
-- `Migration` of the project `from Webpack to a classic Gulp` builder
-- HTML pages cleanUp to not include CSS code in the header
-- Classic Gulp tooling that includes:
-  - SCSS to CSS compilation
-  - serve option with hot reload
-- Assets used by the pages should de be isolated in the assets folder with subfolders:
-  - js
-  - fonts
-  - images
-  - CSS
-  - SCSS
+```bash
+$ git clone https://github.com/app-generator/adminator.git
+$ npm install
+$ gulp 
+```
+
+At this point, the project should run in the browser. 
 
 <br />  
 
@@ -100,12 +99,7 @@ Here is a brief explanation of the template folder structure and some of its mai
 │   │       └── index.scss      # Indicator file.
 │   │
 │   └── *.html                  # All HTML pages files .
-└── webpack                     # Contains Webpack init code.
-│   └── plugins                 # Contains all Webpack plugins config.
-│   └── rules                   # Contains Loaders config code.
-│   └── config.js               # Contains Webpack config object.
-│   └── devServer.js            # Webpack dev server config code.
-│   └── manifest.js             # All build system constants.
+
 │
 └── .babelrc                    # Babel ES6 Transpiler.
 └── .editorconfig               # Keep same coding styles between code editors.
@@ -113,12 +107,10 @@ Here is a brief explanation of the template folder structure and some of its mai
 └── .gitattributes              # Git Attributes.
 └── .gitignore                  # Ignored files in Git.
 └── .stylelintrc.yml            # SCSS/CSS Linting.
-└── browserslist                # Supported Browsers.
+└── gulpfile.js                 # Supported Browsers.
 └── CHANGELOG.md                # Versioning.
 └── package.json                # Package metadata.
 └── README.md                   # Manual file.
-└── webpack.config.js           # Webpack main config file.
-└── yarn.lock                   # Yarn metadata.
 ```
 
 ## Deployment
@@ -162,22 +154,13 @@ Used to create a local dev server in order to preview the final output of build 
 - [Roboto Font](https://fonts.google.com/specimen/Roboto)
 - [Bootstrap Datepicker](https://bootstrap-datepicker.readthedocs.io/en/latest/)
 
-## Changelog
-#### V 1.0.0
-Initial Release
-
-## Authors
-[Colorlib](https://colorlib.com)
-
-## More info
-- [Bootstrap Dashboards](https://colorlib.com/wp/free-bootstrap-admin-dashboard-templates/)
-- [Bootstrap Templates](https://colorlib.com/wp/free-bootstrap-templates/)
-- [HTML Templates](https://colorlib.com/wp/free-html-website-templates/)
-- [Free Admin Dashboards](https://colorlib.com/wp/free-html5-admin-dashboard-templates/)
-- [Website Templates](https://colorlib.com/wp/templates/)
-- [Free CSS Templates](https://colorlib.com/wp/free-css-website-templates/)
-- [WordPress Themes](https://colorlib.com/wp/free-wordpress-themes/)
+<br />
 
 ## License
 
-Adminator is licensed under The MIT License (MIT). Which means that you can use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the final products. But you always need to state that Colorlib is the original author of this template.
+@ MIT License
+
+<br />
+
+---
+Adminator BS 5 - Actively supported and verisoned by [AppSeed](https://appseed.us/). 
