@@ -1,10 +1,9 @@
 var autoprefixer = require('gulp-autoprefixer');
 var browserSync = require('browser-sync').create();
 var cleanCss = require('gulp-clean-css');
-var htmlmin = require('gulp-htmlmin');
-var cssbeautify = require('gulp-cssbeautify');
+var rename = require('gulp-rename');
 var gulp = require('gulp');
-var npmDist = require('gulp-npm-dist');
+var rename = require('gulp-rename');
 var sass = require('gulp-sass')(require('sass'));
 var wait = require('gulp-wait');
 var sourcemaps = require('gulp-sourcemaps');
@@ -62,6 +61,14 @@ gulp.task('scss', function () {
         .pipe(browserSync.stream());
 });
 
+gulp.task('minify:css', function () {
+    return gulp.src( paths.dist.css + "/index.css")
+        .pipe(cleanCss())
+        .pipe(rename("index.min.css"))
+        .pipe(gulp.dest(paths.dist.css))
+        .pipe(browserSync.stream());
+});
+
 gulp.task('html', function () {
     return gulp.src([paths.src.base + '*.html'])
     .pipe(fileinclude({
@@ -89,7 +96,7 @@ gulp.task('images', function () {
         .pipe(browserSync.stream());
 });
 
-gulp.task("build", function(){
+gulp.task("js", function(){
     return browserify({
         entries: ["./src/assets/js/index.js"]
     })
@@ -105,7 +112,22 @@ gulp.task("build", function(){
     .pipe(gulp.dest("./dist/assets/js"));
 });
 
-gulp.task('serve', gulp.series('scss', 'html', 'fonts', 'images', 'build', function() {
+gulp.task("minify:js", function(){
+    return gulp.src([
+        paths.dist.js + '/index.js'
+    ])
+    .pipe(uglify())
+    .pipe(rename('index.min.js'))
+    .pipe(gulp.dest(paths.dist.js))
+});
+
+gulp.task("preview", function() {
+    browserSync.init({
+        server: paths.dist.base
+    });
+});
+
+gulp.task('serve', gulp.series('scss', 'html', 'fonts', 'images', 'js', function() {
     browserSync.init({
         server: paths.dist.base
     });
@@ -119,4 +141,12 @@ gulp.task('serve', gulp.series('scss', 'html', 'fonts', 'images', 'build', funct
 }));
 
 
+
+
+
+gulp.task('build', gulp.series('scss','minify:css', 'html', 'fonts', 'images', 'js', 'minify:js'));
+
+
 gulp.task("default", gulp.series("serve"));
+gulp.task("build", gulp.series("build"));
+gulp.task("preview", gulp.series("preview"));
