@@ -1,10 +1,9 @@
 # [Adminator Bootstrap 5](https://adminator.appseed-srv1.com/)
 
-**[Adminator](https://adminator.appseed-srv1.com/)** is a responsive Bootstrap 5 Admin Template. It provides you with a collection of ready to use code snippets and utilities, custom pages, a collection of applications and some useful widgets - **Initially coded by [Colorlib](https://github.com/puikinsh/Adminator-admin-dashboard)**.
+**Adminator** is a responsive [Bootstrap 5](https://www.admin-dashboards.com/bootstrap-5-templates/) Admin Template. It provides you with a collection of ready to use code snippets and utilities, custom pages, a collection of applications and some useful widgets - **Initially coded by [Colorlib](https://github.com/puikinsh/Adminator-admin-dashboard)** - Migrated to Gulp Tooling for accelerated development by [AppSeed](https://appseed.us/). 
 
-<br />
-
-> Note: This project is a Gulp migration (from `Webpack`) for a better use in frameworks like Flask, Django, FastAPI and accelerated development with new features. 
+- 👉 [Adminator Flask](https://appseed.us/product/adminator/flask/) - Flask integration (free)
+- 👉 [Adminator Django](https://appseed.us/product/adminator/flask/) - Django integration (free)
 
 <br />
 
