@@ -1,9 +1,9 @@
-# [Adminator Bootstrap 5](https://adminator.appseed-srv1.com/)
+# [Adminator Django](https://adminator.appseed-srv1.com/)
 
-**Adminator** is a responsive [Bootstrap 5](https://www.admin-dashboards.com/bootstrap-5-templates/) Admin Template. It provides you with a collection of ready to use code snippets and utilities, custom pages, a collection of applications and some useful widgets - **Initially coded by [Colorlib](https://github.com/puikinsh/Adminator-admin-dashboard)** - Migrated to Gulp Tooling for accelerated development by [AppSeed](https://appseed.us/). 
+**Adminator** is a responsive [Bootstrap 5](https://www.admin-dashboards.com/bootstrap-5-templates/) Admin Template. It provides you with a collection of ready to use code snippets and utilities, custom pages, a collection of applications and some useful widgets - **Initially coded by Colorlib** - Migrated to Gulp Tooling for accelerated development by [AppSeed](https://appseed.us/). 
 
 - 👉 [Adminator Flask](https://appseed.us/product/adminator/flask/) - Flask integration (free)
-- 👉 [Adminator Django](https://appseed.us/product/adminator/flask/) - Django integration (free)
+- 👉 [Adminator Django](https://appseed.us/product/adminator/django/) - Django integration (free)
 
 <br />
 
@@ -89,4 +89,4 @@ Here is a brief explanation of the template folder structure and some of its mai
 <br />
 
 ---
-[Adminator Bootstrap 5](https://adminator.appseed-srv1.com/) - Actively supported and verisoned by [AppSeed](https://appseed.us/). 
+[Adminator Django](https://adminator.appseed-srv1.com/) - Actively supported and verisoned by [AppSeed](https://appseed.us/). 
